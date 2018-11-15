@@ -1,5 +1,36 @@
 body {
-    background-color: #a3d5d3;
+    background-color: wheat;
+    margin: 0;
+  }
+  header{
+    top:0;
+    margin:0;
+    padding: 0;
+    background-color: #ce4a16;
+  }
+  nav{
+    margin:0;
+    padding: 0;
+    background-color: lightsalmon ;
+  }
+  nav ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+  }
+  nav li {
+    display:inline;
+    margin: 0;
+  }
+  nav a{
+   color: #660000;
+    padding-left:8px;
+    padding-right: 8px;
+  } 
+  nav a:hover{
+    color:white;
+    font-weight: bold;
+    background-color: #ce4a16;
   }
   p{
     font-family:"Tahoma";
@@ -7,43 +38,34 @@ body {
     line-height:1.9;
     color:#660000
   }
-  
+  a{
+    text-decoration: none;
+  }
   a:hover{
     color:red
   }
-  h2{font-size:2em;
-    color:#ce4a16
-  }
-  
-  table {
-    width:800px;
-    border-collapse: collapse;
-    border-style:solid;
-    border-color:#f45f24;
-    background-color: #ce4a16;
+  h1{
     color:white;
-  
   }
-  th {border-style:solid;
-  border-color:#f45f24;
-  padding:4px
-  
+  h2{font-size:2em;
+    color: orangered
   }
-  
   div{
   width:800px;
   }
   div.odd{
-    background-color:#becbdf;
-  padding:5px;
+    background-color: tan;
+    padding:5px;
   }
-  
+  div.odd h2{font-size:2em;
+    color: darkcyan
+  }
+
   .highlight{
     color:white;
     background-color:red;
     font-style:italic;
   }
-  
   .photo-right 
   {
   width:300px;
@@ -56,17 +78,11 @@ body {
   float:left;
   margin:5px;
   }
-  
-  
-  #top-menu {
-   position:fixed;
-   top:1px; 
-  }
   #footer{
-   position:fixed;
-   bottom:1px; 
+    background-color: #ce4a16;
+    color:white;
+    font-weight: bold;
   }
-  
   #attraction-map {
   width:180px;
   float:left;
