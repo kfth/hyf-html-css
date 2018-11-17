@@ -3,6 +3,6 @@ HTML-CSS
 
 Here you can find my homeworks hosted via Github:
 
-Week0: https://github.com/kfth/hyf-html-css/tree/master/week0
+Week0: http://htmlpreview.github.io/?https://github.com/kfth/hyf-html-css/blob/master/week0/index.html
 
-Week1: https://github.com/kfth/hyf-html-css/tree/master/week1
+Week1: http://htmlpreview.github.io/?https://github.com/kfth/hyf-html-css/blob/master/week1/index.html
