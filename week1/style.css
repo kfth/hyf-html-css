@@ -40,15 +40,16 @@ nav li {
     }
 
 section{
-    width: 60%;
+    width: 90vw;
     margin-top:150px;
+
 }
 #home{
     margin-top: 0;
     padding: 200px;
-    width: 100%;
+    width: 100vw;
     background: url(images/background2.png),no-repeat;
-    background-size: 100%;
+    background: size 1000px;
 }
 
 h1 {
