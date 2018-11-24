@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family:verdana,tahoma, serif;
+    background-color:#FFFFCC;
+}
+
+p{
+    color:#2a2d3a;
+    padding: 0.5vw;   
+    font-size: 1vw;
+    text-align: justify;
+}
+
+h1 {
+    color: #525564;
+    font-size: 2.5vw;
+    margin: 1vw;
+}
+h2 {
+    color: #525564;
+    font-size: 2vw;
+    margin: 1vw;
+}
+section:nth-of-type(2) h2{
+   clear: both;
+   padding-top:5vh;
+}
+
+h3{
+    color: #525564;
+    font-size: 1.5vw;
+    margin: 0;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    margin: auto;    
+    transition: all .2s ease-in-out;
+    margin: 0;
+}
+
+img:hover{
+    transform: scale(1.1); 
+}
+
+.grid-item img:nth-of-type(1){
+    max-height: 96%;
+    float: left;
+
+}
+
+#grid-floats {
+/*    
+display: inline-grid;
+grid-gap: 5vh;
+grid-template-columns: 25vw 25vw 25vw 25vw;
+*/
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.grid-item {
+    overflow: hidden;
+    border-radius: 3%;
+    height: 55vh;
+    margin: 1vh;    
+}
+
+#grid-floats .grid-item {
+    float: left;
+    clear: right;
+    display: inline-block;
+    width: 47vw;
+}
+
+#grid-floats li:nth-of-type(1) {
+    background-color:#FF9933;
+    width: 96vw;
+}
+
+#grid-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#grid-flex .grid-item {
+    flex:0 0 47vw;
+
+}
+
+#grid-flex li:nth-of-type(1) {
+    flex: 0 0 96vw;
+    background-color:#FF9933;
+}
+
+/* For tablets screen size starting from 401 to 960 */
+@media (min-width:401px) and (max-width:960px){
+
+    #grid-floats .grid-item {
+        width: calc(92vw/3);
+    }
+    
+    #grid-floats li:nth-of-type(-n+2) {
+        width: 47vw;
+    }
+    
+    #grid-flex .grid-item {
+        flex:0 0 calc(92vw/3);
+    }
+    #grid-flex li:nth-of-type(-n+2) {
+        flex: 0 0 47vw;
+    }
+}
+
+/* For laptops and pc */
+@media (min-width:961px ) {
+ 
+    #grid-floats .grid-item {
+        width: 22.5vw;
+    }
+    
+    #grid-floats li:nth-of-type(1) {
+        width: 45.9vw;
+    }
+    
+    #grid-flex .grid-item {
+        flex:0 0 22.5vw;
+    }
+    #grid-flex li:nth-of-type(1) {
+        flex: 0 0 45.9vw;
+    }   
+}
+    
+
+li:nth-of-type(2n+1) {
+    background-color: #e8b992;
+    border: 1px ridge #b48d6c;
+    color: #ce5f00;
+}
+
+li:nth-of-type(2n) {
+    background-color:#b2d9e7;
+    border: 1px ridge #028482;
+
+}
+    
