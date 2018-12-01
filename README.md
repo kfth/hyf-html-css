@@ -1,10 +1,10 @@
 
-HTML-CSS
+<h1>HTML-CSS</h1>
 
-Here you can find my homeworks hosted via Github:
-
-Week0: http://htmlpreview.github.io/?https://github.com/kfth/hyf-html-css/blob/master/week0/index.html
-
-Week1: http://htmlpreview.github.io/?https://github.com/kfth/hyf-html-css/blob/master/week1/index.html
-
-Week2: http://htmlpreview.github.io/?https://github.com/kfth/hyf-html-css/blob/master/week2/index.html
+<h2>Here you can find my homeworks hosted via Github:</h2>
+<ul>
+  <li>Week0: https://kfth.github.io/hyf-html-css/week0/</li>
+  <li>Week1: https://kfth.github.io/hyf-html-css/week1/</li>
+  <li>Week2: https://kfth.github.io/hyf-html-css/week2/ </li>
+  <li>Week3: https://kfth.github.io/hyf-html-css/week3/</li>
+</ul>
